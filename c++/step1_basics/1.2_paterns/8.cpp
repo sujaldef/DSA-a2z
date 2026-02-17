@@ -11,12 +11,12 @@ int i,j;
     int n=8;
     for(i=0;i<n;i++)
     {
-  //spaces
+  // spaces
         for(j=0;j<i;j++)
     {
         cout<<" ";
     }
-    //stars   
+    // stars   
     for(j=1;j<2*(n-i);j++)
     {
         cout<<"*";

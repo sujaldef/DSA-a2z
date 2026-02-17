@@ -5,7 +5,7 @@ int main(){
 
     int n=3;
 
-    // TOP pyramid
+    // TOP  pyramid
     for(int i=0;i<=n;i++)
     {
         for(int j=0;j<n-i;j++)
@@ -17,7 +17,7 @@ int main(){
         cout<<endl;
     }
 
-    // BOTTOM pyramid
+    // BOTTOM  pyramid
     for(int i=n-1;i>=0;i--)
     {
         for(int j=0;j<n-i;j++)

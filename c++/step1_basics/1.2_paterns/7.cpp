@@ -27,16 +27,16 @@ using namespace std;
 //         cout<<endl;
 //     }
 
-//     return 0;
+//      return 0;
 // }
 
-// optimized 
+//  optimized 
 int main() {
     int n=8,i,j;
 
     for(i=1;i<=n;i++)
     {
-        // spaces
+        //  spaces
         for(j=0;j<n-i;j++)
             cout<<" ";
 

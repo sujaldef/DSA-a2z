@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run C++ with file IO",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "g++ -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\"; if ($?) { Get-Content input.txt | .\\${fileBasenameNoExtension}.exe | Out-File output.txt }"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

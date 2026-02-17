@@ -7,7 +7,7 @@
       "command": "powershell",
       "args": [
         "-Command",
-        "g++ -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\"; if ($?) { Get-Content input.txt | .\\${fileBasenameNoExtension}.exe | Out-File output.txt }"
+        "g++  -std=c++17 \"${file}\" -o \"${fileBasenameNoExtension}.exe\"; if ($?) { Get-Content input.txt | .\\${fileBasenameNoExtension}.exe | Out-File output.txt }"
       ],
       "group": {
         "kind": "build",

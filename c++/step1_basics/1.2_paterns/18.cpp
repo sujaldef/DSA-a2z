@@ -9,14 +9,13 @@ using namespace std;
 int main() {
     int n=5,i,j;
 
-    for(i=0;i<=n;i++)
+    for(i=0;i<n;i++)
     {
-        // char c = 'A';
-       int itr =0,a=0;
-        for(j=1;j<=i;j++)
+        
+        for(char c='E'-i;c<='E';c++)
         {
-a=n-j;
-            cout<<a<<" ";
+
+            cout<<c<<" ";
             
         }
         cout<<endl;

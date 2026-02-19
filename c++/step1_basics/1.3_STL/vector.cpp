@@ -20,14 +20,14 @@ int main() {
     cout << endl;
 
 
-    // ---- Accessing elents ----
+    // ---- Accessing  ----
     cout << "First element (v[0]) = " << v[0] << endl;
     cout << "Third element using at() = " << v.at(2) << endl;
 
     cout << "Current size = " << v.size() << endl;
 
 
-    // ---- Removing ----
+    // ---- Removing last element ----
     v.pop_back();
 
     cout << "After pop_back: ";

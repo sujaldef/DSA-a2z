@@ -27,7 +27,7 @@ int main() {
     cout << "Current size = " << v.size() << endl;
 
 
-    // ---- Removing laselement ----
+    // ---- Removing ----
     v.pop_back();
 
     cout << "After pop_back: ";

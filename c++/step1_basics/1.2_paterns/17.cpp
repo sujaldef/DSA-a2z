@@ -12,8 +12,8 @@ int main() {
     for(i=0;i<=n;i++)
     {
         char c = 'A';
-        //  spaces
-        for(j=0;j<=n-i-1;j++)
+        //    spaces
+         for(j=0;j<=n-i-1;j++)
         {
             cout<<" ";
         }

@@ -12,7 +12,7 @@ int main() {
 
     // ---- Adding elements ----
     v.push_back(10);          // add 10 at end
-    v.push_back(20);          // 
+    v.push_back(20);          // add 20 at end
     v.emplace_back(30);       // faster in-place insertion
 
     cout << "After push/emplace: ";

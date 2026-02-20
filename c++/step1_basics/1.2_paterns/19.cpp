@@ -12,11 +12,11 @@ int main() {
         for(int j=1;j<=i;j++)
             cout<<"*";
 
-        // middle spaces
+        //   middle spaces
         for(int j=1;j<=2*(n-i);j++)
             cout<<" ";
-
-        // right stars
+ 
+        //   right stars
         for(int j=1;j<=i;j++)
             cout<<"*";
 

@@ -11,7 +11,7 @@ int main() {
     pair<int,char> pa ={12,'a'};
     cout<<pa.first<<" "<<pa.second<<endl;
 
-    // also we can do 
+    // also we c
     pair <int,pair<int,char>> p2 = {1,{2,'b'}};
     cout<<p2.first<<" "<<p2.second.first<<" "<<p2.second.second<<endl;
     // also an array

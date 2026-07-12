@@ -1,18 +1,27 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
-
 int main() {
-    int n=12;
-    int a=0;
-    int b=1;
-for(int i=1;i<=n;i++)
-{
-    cout<<a<<" ";
-    int c=a+b;
-    a=b;
-    b=c;
-}
-return 0;
+    int n = 5;
+
+    for (int i = 1; i <= n; i++) {
+
+   for(int j=1;j<=n-i;j++)
+   {
+    cout<<" ";
+   }
+   for(int k=1;k<=2*i-1;k++)
+   {
+    if(k==1||i==n||k==2*i-1)
+    {
+        cout<<"*";
+    }else{
+        cout<<" ";
+    }
+   }
+
+        cout << endl;
+    }
+
+    return 0;
 }
